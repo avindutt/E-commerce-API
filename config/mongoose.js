@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://0.0.0.0/api_development');
+mongoose.connect('mongodb+srv://Ecommerce_API:M6bgz5wlK1rnYabC@mestaboss.qlrtxe3.mongodb.net/?retryWrites=true&w=majority');
 
 // acquiring mongoose connection
 const db = mongoose.connection;
